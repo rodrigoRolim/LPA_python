@@ -1,2 +1,5 @@
 o preço médio dos carros entre os anos de referência de 2021 a 2023
 e os anos de modelos entre 2000 e 2023 foi de R$ 52.756,76.
+
+O modelo de carro com maior frequência é Palio Week. Adv/Adv TRYON 
+1.8 mpi Flex da Fiat, movido a gasolina e com cambio manual
