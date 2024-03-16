@@ -4,6 +4,12 @@ e os anos de modelos entre 2000 e 2023 foi de R$ 52.756,76.
 O modelo de carro com maior frequência é Palio Week. Adv/Adv TRYON 
 1.8 mpi Flex da Fiat, movido a gasolina e com cambio manual
 
-2. e.
+2. e. Dê uma breve explicação (máximo de quatro linhas) sobre os resultados gerados no item d
 
-2. g
+  As marcas de carros que mais venderam carros com cambio automatico foram os VW - Volksvagem
+seguido pelo os da fiat. E o que menos vendeu foi os da marca Renault.
+
+  As marcas de carros que mais venderam carros de cambio manual foram os da Ford, GM - Chevrolet,
+e da Nissa. Praticamente empatados.
+
+2. g. Dê uma breve explicação (máximo de quatro linhas) sobre os resultados gerados no item f
