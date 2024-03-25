@@ -13,3 +13,28 @@ seguido pelo os da fiat. E o que menos vendeu foi os da marca Renault.
 e da Nissa. Praticamente empatados.
 
 2. g. Dê uma breve explicação (máximo de quatro linhas) sobre os resultados gerados no item f
+
+
+MSE, RandomForest sem params -> 288889754.22693384
+MAE, RandomForest sem params -> 8078.4854866330525
+R2_score, RandomForest sem params -> 0.8923235561442975
+
+MSE, RandomForest com params -> 337793498.42270356
+MAE, RandomForest com params -> 8838.696791648297
+R2_score, RandomForest com params -> 0.8740959063603146
+
+MSE, XGBooster sem params -> 414576756.6091789
+MAE, XGBooster sem params -> 11097.809135639283
+R2_score, XGBooster sem params -> 0.8454768637386808
+
+MSE, XGBooster com params -> 408009508.5999383
+MAE, XGBooster com params -> 10762.685019837949
+R2_score, XGBooster com params -> 0.8479246414850594
+
+O R2_score do RandomForest sem parametros foi maior do que o com parametros
+O MSE do RandomForest com parametros foi maior do que o sem parametros
+O MAE do RandomForest com parametros também foi maior do que o sem parametros
+
+O R2_score do XGBooster sem parametros e com foram praticamente iguais, a diferença foi muito pequena
+O MSE do XGBooster sem parametros foi maior do que o com parametos, por pouca coisa
+O MAE do XGBooster sem parametros foi maior do que o com parametros, por pouca coisa
