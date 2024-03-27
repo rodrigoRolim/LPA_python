@@ -1,40 +1,54 @@
-1. f. o preço médio dos carros entre os anos de referência de 2021 a 2023
-e os anos de modelos entre 2000 e 2023 foi de R$ 52.756,76.
-
-O modelo de carro com maior frequência é Palio Week. Adv/Adv TRYON 
-1.8 mpi Flex da Fiat, movido a gasolina e com cambio manual
+1. f. Dê um breve explicação (máximo de quatro linhas) sobre os principais resultados encontrados na Análise Exploratória dos dados
+  
+  ----
+    O preço médio dos carros entre os anos de referência de 2021 a 2023
+  e os anos de modelos entre 2000 e 2023 foi de R$ 52.756,76.
+    O modelo de carro com maior frequência é Palio Week. Adv/Adv TRYON 
+  1.8 mpi Flex da Fiat, movido a gasolina e com cambio manual.
+  ----
 
 2. e. Dê uma breve explicação (máximo de quatro linhas) sobre os resultados gerados no item d
-
-  As marcas de carros que mais venderam carros com cambio automatico foram os VW - Volksvagem
-seguido pelo os da fiat. E o que menos vendeu foi os da marca Renault.
-
-  As marcas de carros que mais venderam carros de cambio manual foram os da Ford, GM - Chevrolet,
-e da Nissa. Praticamente empatados.
+  
+  ----
+    As marcas de carros que mais venderam carros com cambio automatico foram os VW - Volksvagem
+  seguido pelo os da fiat. E o que menos vendeu foi os da marca Renault.
+    As marcas de carros que mais venderam carros de cambio manual foram os da Ford, GM - Chevrolet,
+  e da Nissa. Praticamente empatados.
+  ----
 
 2. g. Dê uma breve explicação (máximo de quatro linhas) sobre os resultados gerados no item f
+  
+  ----
+  Os maiores preços médios de carros movido a diesel são os da vm - volkswagem
+  Os únicos que venderam carros movidos a alcool foram os da fiat, ford, GM - Chevrolet e VM - Volksvagem
+  Os da nissa foram os que tiveram maiores preços médios de carros movidos a gasolina
+  O tipo de combustível que apresentou maiores preços médios de carros por marca foi o a Disel
+  ----
 
+3. f. Dê uma breve explicação (máximo de quatro linhas) sobre os resultados encontrados na análise de importância de variáveis
 
-MSE, RandomForest sem params -> 288889754.22693384
-MAE, RandomForest sem params -> 8078.4854866330525
-R2_score, RandomForest sem params -> 0.8923235561442975
+  ----
+  Os variáveis que tiveram maior relevância na medida da performance dos modelos
+    treinados forma o tamanho do motor e ano do modelo respectivamente.
+  ----
 
-MSE, RandomForest com params -> 337793498.42270356
-MAE, RandomForest com params -> 8838.696791648297
-R2_score, RandomForest com params -> 0.8740959063603146
+3. g. Escolha o melhor modelo com base nas métricas de avaliação MSE, MAE e R2
+  
+  ----
+  O melhor modelo com base nessa medidas de acurácia foi o modelo
+    RandomForest sem parametros.
+  ----
 
-MSE, XGBooster sem params -> 414576756.6091789
-MAE, XGBooster sem params -> 11097.809135639283
-R2_score, XGBooster sem params -> 0.8454768637386808
+3. h. Dê uma breve explicação (máximo de quatro linhas) sobre qual modelo gerou o melhor resultado e a métrica de avaliação utilizada
 
-MSE, XGBooster com params -> 408009508.5999383
-MAE, XGBooster com params -> 10762.685019837949
-R2_score, XGBooster com params -> 0.8479246414850594
+  ---
+  Melhor MAE: RandomForest sem params -> 1765.358160792194
+  Melhor MSE: RandomForest sem params -> 12.165.425.33231638
+  Melhor R2: RandomForest sem params -> 0.9954656414129976
+  ---
 
-O R2_score do RandomForest sem parametros foi maior do que o com parametros
-O MSE do RandomForest com parametros foi maior do que o sem parametros
-O MAE do RandomForest com parametros também foi maior do que o sem parametros
+  O modelo que apresentou os melhores resultado foi o RandomForest sem parametros
+  e para medir a sua acurácia foi utilizado as médidas de acurácia MSE (mean squared error), 
+  MAE (mean absolute error) e R2_score.
 
-O R2_score do XGBooster sem parametros e com foram praticamente iguais, a diferença foi muito pequena
-O MSE do XGBooster sem parametros foi maior do que o com parametos, por pouca coisa
-O MAE do XGBooster sem parametros foi maior do que o com parametros, por pouca coisa
+  ---
