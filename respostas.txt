@@ -8,66 +8,58 @@ Marcos Antonio Nespolo Junior
 Rodrigo Rolim Veras
 
 1 Análise Exploratória dos dados:
-1. f. Dê um breve explicação (máximo de quatro linhas) sobre os principais resultados encontrados na Análise Exploratória dos dados
 
-É necessário uma observação cuidadosa dos dados quanto a tipos, espaço em branco, dados duplicados para que a análise fique mais confiável.
-O preço médio dos carros entre os anos de referência de 2021 a 2023 e os anos de modelos entre 2000 e 2023 foi de R$ 52.756,76.
-O modelo de carro com maior frequência é Palio Week. Adv/Adv TRYON 1.8 mpi Flex da Fiat, movido a gasolina e com cambio manual.
-  
-  ----
-    As marcas de carros que mais venderam carros com câmbio automático foram os da VW - Volksvagem
-  seguido pelo os da fiat. E os que menos foram vendidos foram os da marca Renault.
-    As marcas de carros que mais venderam carros de câmbio manual foram os da Ford, GM - Chevrolet,
-  e da Nissa. Praticamente empatados.
-  ----
+  f. Dê um breve explicação (máximo de quatro linhas) sobre os principais resultados encontrados na Análise Exploratória dos dados
+
+      A partir da análise exploratória dos dados podemos identificar que há valores ausentes
+    no conjunto de dados. As linhas cujos valores são ausentes em todas as colunas foram removidas.
+      No geral, o preço médio de um carro no Brasil custa aproximadamente $R\$ 52,756,91$. 
+    Um dos modelos mais vendidos é Palio Week. Adv/Adv TRYON 1.8 mpi Flex,	com câmbio manual	e motor $1.6$.
 
 2 Visualização dos dados:
 
-2. e. Dê uma breve explicação (máximo de quatro linhas) sobre os resultados gerados no item d
-    As marcas de carros que mais venderam carros com cambio automatico foram os 
-  VW - Volksvagem seguido pelo os da fiat. E o que menos vendeu foi os da marca Renault.
-    As marcas de carros que mais venderam carros de cambio manual foram os da Ford, 
-  GM - Chevrolet, e da Nissa. Praticamente empatados.
-  ----
+  e. Dê uma breve explicação (máximo de quatro linhas) sobre os resultados gerados no item d
+      
+      O preço médio do carro com câmbio automático é relativamente mais alto quando comparado aos
+    de câmbio manual para todas as marcas, com exceção da Renault. VolksWagen e Fiat lideram as
+    marcas que possuem maior preço médio para carros de câmbio automático, ao passo que lideram
+    também as marcas com menor preço médio dos carros com câmbio manual.
 
-2. g. Dê uma breve explicação (máximo de quatro linhas) sobre os resultados gerados no item f
-Os maiores preços médios de carros movido a diesel são os da vm - volkswagem. Os únicos que não venderam carros movidos a alcool foram a Nissan e a Renault.
-Os  carros da Nissan foram os que tiveram maiores preços médios de carros movidos a gasolina. As marcas com tipo de combustível diesel foram as que apresentaram os maiores
-preços médios ficando a VW - Volkswagen a com maior preço e a Ford apresentando o menor.
-  ----
+  g. Dê uma breve explicação (máximo de quatro linhas) sobre os resultados gerados no item f
+    1. O preço médio do carro à diesel é muito mais elevado para todas as marcas, sendo a VolksWagen a marca com maior preço médio para esta categoria. 
+    2. O preço médio do carro à álcool lidera com os menores valores.
+    3. Os carros à gasolina com menor preço médio são das marcas Fiat e Renault.
 
 3 Aplicação de modelos de machine learning para prever o preço médio dos carros:
-3. f. Dê uma breve explicação (máximo de quatro linhas) sobre os resultados encontrados na análise de importância de variáveis
 
-  ----
-  Os variáveis que tiveram maior relevância na medida da performance dos modelos
-    treinados foram o tamanho do motor e ano do modelo respectivamente.
-  O mês de referência foi o que obteve menor relevância em todos o modelos treinados.
-  ----
+  f. Dê uma breve explicação (máximo de quatro linhas) sobre os resultados encontrados na análise de importância de variáveis
 
-Os resultados encontrados na análise de importância de variáveis indicam quais variáveis têm maior influência no modelo utilizado. Essa análise é útil para entender quais 
-características ou atributos são mais relevantes para a previsão do modelo e pode ajudar na seleção de variáveis para melhorar a precisão ou a eficiência do modelo.
-As variáveis que tiveram maior relevância na medida da performance dos modelos treinados forma o tamanho do motor e ano do modelo respectivamente.
+    Os variáveis que tiveram maior relevância na medida da performance dos modelos
+      treinados foram o tamanho do motor e ano do modelo respectivamente.
+    O mês de referência foi o que obteve menor relevância em todos o modelos treinados.
 
 
-3. g. Escolha o melhor modelo com base nas métricas de avaliação MSE, MAE e R2
-O melhor modelo com base nessa medidas de acurácia foi o modelo XGBoost.
-  ----
-  O melhor modelo com base nessas medidas de acurácia foi o modelo RandomForest sem parametros
-  ----
-3. h. Dê uma breve explicação (máximo de quatro linhas) sobre qual modelo gerou o melhor resultado e a métrica de avaliação utilizada
+  g. Escolha o melhor modelo com base nas métricas de avaliação MSE, MAE e R2
 
-Considerando que o MSE (valores menores indicam melhor ajuste do modelo aos dados), MAE (fornece uma medida mais direta do tamanho médio dos erros) e R2 (é uma medida de quão 
-bem o modelo se ajusta aos dados em relação a linha média), e sendo os dados: RandomForest: MSE: 1788, MSA: 6180, R2: 0,93 e XGBoost: MSE: 1021, MSA: 5401, R2: 0,96, o modelo 
-XGBoost gerou melhor resultado.
-  ---
-  Melhor MAE: RandomForest sem params -> 1765.358160792194
-  Melhor MSE: RandomForest sem params -> 12165425.33231638
-  Melhor R2: RandomForest sem params -> 0.9954656414129976
-  ---
+    O melhor modelo com base nessa medidas de acurácia foi o modelo XGBoost.
 
-  O modelo que apresentou os melhores resultado foi o RandomForest sem parametros
-  e para medir a sua acurácia foi utilizado as médidas de acurácia MSE (mean squared error), 
-  MAE (mean absolute error) e R2_score.
+    ----
+    O melhor modelo com base nessas medidas de acurácia foi o modelo RandomForest sem parametros
+    ----
 
-  ---
+  h. Dê uma breve explicação (máximo de quatro linhas) sobre qual modelo gerou o melhor resultado e a métrica de avaliação utilizada
+
+    Considerando que o MSE (valores menores indicam melhor ajuste do modelo aos dados), MAE (fornece uma medida mais direta do tamanho médio dos erros) e R2 (é uma medida de quão 
+    bem o modelo se ajusta aos dados em relação a linha média), e sendo os dados: RandomForest: MSE: 1788, MSA: 6180, R2: 0,93 e XGBoost: MSE: 1021, MSA: 5401, R2: 0,96, o modelo 
+    XGBoost gerou melhor resultado.
+
+    ---
+    Melhor MAE: RandomForest sem params -> 1765.358160792194
+    Melhor MSE: RandomForest sem params -> 12165425.33231638
+    Melhor R2: RandomForest sem params -> 0.9954656414129976
+    ---
+
+    O modelo que apresentou os melhores resultado foi o RandomForest sem parametros
+    e para medir a sua acurácia foi utilizado as médidas de acurácia MSE (mean squared error), 
+    MAE (mean absolute error) e R2_score.
+
