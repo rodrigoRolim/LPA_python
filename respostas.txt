@@ -4,32 +4,33 @@
     O preço médio dos carros entre os anos de referência de 2021 a 2023
   e os anos de modelos entre 2000 e 2023 foi de R$ 52.756,76.
     O modelo de carro com maior frequência é Palio Week. Adv/Adv TRYON 
-  1.8 mpi Flex da Fiat, movido a gasolina e com cambio manual.
+  1.8 mpi Flex da Fiat, movido a gasolina e com câmbio manual.
   ----
 
 2. e. Dê uma breve explicação (máximo de quatro linhas) sobre os resultados gerados no item d
   
   ----
-    As marcas de carros que mais venderam carros com cambio automatico foram os VW - Volksvagem
-  seguido pelo os da fiat. E o que menos vendeu foi os da marca Renault.
-    As marcas de carros que mais venderam carros de cambio manual foram os da Ford, GM - Chevrolet,
+    As marcas de carros que mais venderam carros com câmbio automático foram os da VW - Volksvagem
+  seguido pelo os da fiat. E os que menos foram vendidos foram os da marca Renault.
+    As marcas de carros que mais venderam carros de câmbio manual foram os da Ford, GM - Chevrolet,
   e da Nissa. Praticamente empatados.
   ----
 
 2. g. Dê uma breve explicação (máximo de quatro linhas) sobre os resultados gerados no item f
   
   ----
-  Os maiores preços médios de carros movido a diesel são os da vm - volkswagem
-  Os únicos que venderam carros movidos a alcool foram os da fiat, ford, GM - Chevrolet e VM - Volksvagem
-  Os da nissa foram os que tiveram maiores preços médios de carros movidos a gasolina
-  O tipo de combustível que apresentou maiores preços médios de carros por marca foi o a Disel
+  Os maiores preços médios de carros movido a diesel são os da vm - volkswagem.
+  Os únicos que venderam carros movidos a alcool foram os da fiat, ford, GM - Chevrolet e VM - Volksvagem.
+  Os da nissa foram os que tiveram maiores preços médios de carros movidos a gasolina.
+  O tipo de combustível que apresentou maiores preços médios de carros por marca foi o a Disel.
   ----
 
 3. f. Dê uma breve explicação (máximo de quatro linhas) sobre os resultados encontrados na análise de importância de variáveis
 
   ----
   Os variáveis que tiveram maior relevância na medida da performance dos modelos
-    treinados forma o tamanho do motor e ano do modelo respectivamente.
+    treinados foram o tamanho do motor e ano do modelo respectivamente.
+  O mês de referência foi o que obteve menor relevância em todos o modelos treinados.
   ----
 
 3. g. Escolha o melhor modelo com base nas métricas de avaliação MSE, MAE e R2
@@ -43,7 +44,7 @@
 
   ---
   Melhor MAE: RandomForest sem params -> 1765.358160792194
-  Melhor MSE: RandomForest sem params -> 12.165.425.33231638
+  Melhor MSE: RandomForest sem params -> 12165425.33231638
   Melhor R2: RandomForest sem params -> 0.9954656414129976
   ---
 
