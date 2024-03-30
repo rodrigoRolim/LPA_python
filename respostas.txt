@@ -11,10 +11,9 @@ Rodrigo Rolim Veras
 
   f. Dê um breve explicação (máximo de quatro linhas) sobre os principais resultados encontrados na Análise Exploratória dos dados
 
-      A partir da análise exploratória dos dados podemos identificar que há valores ausentes
-    no conjunto de dados. As linhas cujos valores são ausentes em todas as colunas foram removidas.
-      No geral, o preço médio de um carro no Brasil custa aproximadamente $R\$ 52,756,91$. 
+      No geral, o preço médio de um carro no Brasil custa aproximadamente R$ 52,756,91. 
     Um dos modelos mais vendidos é Palio Week. Adv/Adv TRYON 1.8 mpi Flex,	com câmbio manual	e motor 1.6.
+      o menor preço médio de carros foi de R$ 6647,00, e o maior preço médio é R$ 979358,00.
 
 2 Visualização dos dados:
 
@@ -26,6 +25,7 @@ Rodrigo Rolim Veras
     também as marcas com menor preço médio dos carros com câmbio manual.
 
   g. Dê uma breve explicação (máximo de quatro linhas) sobre os resultados gerados no item f
+    
     1. O preço médio do carro à diesel é muito mais elevado para todas as marcas, 
        sendo a VolksWagen a marca com maior preço médio para esta categoria. 
     2. O preço médio do carro à álcool lidera com os menores valores.
