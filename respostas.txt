@@ -14,7 +14,7 @@ Rodrigo Rolim Veras
       A partir da análise exploratória dos dados podemos identificar que há valores ausentes
     no conjunto de dados. As linhas cujos valores são ausentes em todas as colunas foram removidas.
       No geral, o preço médio de um carro no Brasil custa aproximadamente $R\$ 52,756,91$. 
-    Um dos modelos mais vendidos é Palio Week. Adv/Adv TRYON 1.8 mpi Flex,	com câmbio manual	e motor $1.6$.
+    Um dos modelos mais vendidos é Palio Week. Adv/Adv TRYON 1.8 mpi Flex,	com câmbio manual	e motor 1.6.
 
 2 Visualização dos dados:
 
@@ -60,6 +60,7 @@ Rodrigo Rolim Veras
     ---
 
     O modelo que apresentou os melhores resultado foi o RandomForest sem parametros
-    e para medir a sua acurácia foi utilizado as médidas de acurácia MSE (mean squared error), 
-    MAE (mean absolute error) e R2_score.
+    e para medir a sua acurácia foi utilizado as médidas de acurácia MSE (mean squared error)
+    com o valor 12165425.33231638, MAE (mean absolute error) com o valor 12165425.33231638
+    e R2_score com 0.9954656414129976 de precisão.
 
