@@ -19,7 +19,7 @@ Rodrigo Rolim Veras
 2 Visualização dos dados:
 
   e. Dê uma breve explicação (máximo de quatro linhas) sobre os resultados gerados no item d
-      
+  
       O preço médio do carro com câmbio automático é relativamente mais alto quando comparado aos
     de câmbio manual para todas as marcas, com exceção da Renault. VolksWagen e Fiat lideram as
     marcas que possuem maior preço médio para carros de câmbio automático, ao passo que lideram
@@ -34,21 +34,21 @@ Rodrigo Rolim Veras
 3 Aplicação de modelos de machine learning para prever o preço médio dos carros:
 
   f. Dê uma breve explicação (máximo de quatro linhas) sobre os resultados encontrados na análise de importância de variáveis
-
-    Os variáveis que tiveram maior relevância na medida da performance dos modelos
-      treinados foram o tamanho do motor (engine_size) e ano do modelo (year_model) 
+      
+      Os variáveis que tiveram maior relevância na medida da performance dos modelos
+    treinados foram o tamanho do motor (engine_size) e ano do modelo (year_model) 
     respectivamente.
-    O mês de referência foi o que obteve menor relevância em todos o modelos treinados.
-
-
+      O mês de referência foi o que obteve menor relevância em todos o modelos treinados.
+      
   g. Escolha o melhor modelo com base nas métricas de avaliação MSE, MAE e R2
-
-    O melhor modelo com base nessas medidas de acurácia foi o modelo RandomForest sem parametros
+  
+    O melhor modelo com base nessas medidas de acurácia foi o modelo RandomForest sem parametros.
 
   h. Dê uma breve explicação (máximo de quatro linhas) sobre qual modelo gerou o melhor resultado e a métrica de avaliação utilizada
-
-    O modelo que apresentou os melhores resultado foi o RandomForest sem parametros
+  
+     O modelo que apresentou os melhores resultado foi o RandomForest sem parametros
     e para medir a sua acurácia foi utilizado as médidas de acurácia MSE (mean squared error)
     com o valor 12165425.33231638, MAE (mean absolute error) com o valor 12165425.33231638
     e R2_score com 0.9954656414129976 de precisão.
+   
 
